@@ -1,0 +1,26 @@
+{
+  "name": "cobasi",
+  "version": "1.0.0",
+  "description": "teste de 3 páginas para cobasi",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch-css",
+    "build-css": "node-sass --output-style compressed --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelvieira12/cobasi.git"
+  },
+  "author": "Rafael Vidal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelvieira12/cobasi/issues"
+  },
+  "homepage": "https://github.com/rafaelvieira12/cobasi#readme",
+  "devDependencies": {
+    "node-php-server": "^0.1.2",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4"
+  }
+}
