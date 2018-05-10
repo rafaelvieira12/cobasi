@@ -1,0 +1,32 @@
+.paginaEntregas {
+
+	padding: 40px 0 50px 0;
+	
+	table {
+		width: 100%;
+
+		thead {
+			tr {
+				text-align: left;
+
+				th {
+					padding: 8px;
+					border-bottom: 1px solid #ddd;
+
+					&:nth-child(1) {
+						width: 100px;
+					}
+				}
+			}
+		}
+
+		tr {
+			
+		}
+
+		td {
+			padding: 8px;
+			border-bottom: 1px solid #ddd;
+		}
+	}
+}
