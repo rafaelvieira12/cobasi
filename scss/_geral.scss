@@ -55,8 +55,13 @@ header {
 		a {
 			color: #fff;
 			text-transform: uppercase;
-			padding: 10px 0;
+			padding: 10px 5px;
 			display: block;
+
+			&.marcado,
+			&:hover {
+				background: rgba(229, 229, 229, 0.5);
+			}
 		}
 	}
 }
