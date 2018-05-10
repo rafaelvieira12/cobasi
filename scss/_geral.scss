@@ -1,4 +1,5 @@
 $verde: #00a3b4;
+$azul: #00529c;
 
 body {
 	padding: 0;
@@ -39,8 +40,7 @@ header {
 
 	nav {
 		background: $verde;
-		width: 100%;
-		padding: 10px 0;
+		width: 100%;		
 		float: left;
 
 		ul {
@@ -48,13 +48,15 @@ header {
 		}
 
 		li {
-			padding-right: 20px;
+			padding-right: 30px;
 			float: left;
 		}
 
 		a {
 			color: #fff;
 			text-transform: uppercase;
+			padding: 10px 0;
+			display: block;
 		}
 	}
 }
