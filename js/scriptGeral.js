@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 		  
 	// inicio pagina
-	$(".geral").load("pedidos/pedidos.html");
+	$(".geral").load("views/pedidos.html");
 
 	$("header nav a").click(function(e) {
 		e.preventDefault();
@@ -18,7 +18,7 @@ $( document ).ready(function() {
 
 		// mostra a página de acordo com menu
 		if($(this).attr('href')) {
-			$(".geral").load(nome + "/" + nome + ".html");
+			$(".geral").load("views/" + nome + ".html");
 		}
 			  
 	});
